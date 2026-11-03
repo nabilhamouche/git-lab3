@@ -1,5 +1,5 @@
 def login(username, password):
-    if not username or not password:
+    if not username or not username.strip() or not password:
         return False
     return True
 
